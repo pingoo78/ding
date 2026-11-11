@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home_greeting">Bonjour</string>
+    <string name="home_title">Mes programmes</string>
+    <string name="home_edit_named">Modifier %1$s</string>
+    <string name="home_open_run">Ouvrir l\'exécution</string>
+    <string name="run_steps_title">Étapes</string>
+    <string name="run_progress_desc">Progression de l\'étape</string>
+</resources>

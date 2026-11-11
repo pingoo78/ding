@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ding!</string>
+
+    <string name="channel_running_name">Programme en cours</string>
+    <string name="channel_running_description">Affiche le programme actif et son décompte.</string>
+    <string name="channel_alert_name">Étapes atteintes</string>
+    <string name="channel_alert_description">Alerte sonore lorsqu\'une étape est atteinte.</string>
+
+    <string name="action_back">Retour</string>
+    <string name="action_save">Enregistrer</string>
+    <string name="action_cancel">Annuler</string>
+    <string name="action_delete">Supprimer</string>
+    <string name="action_pause">Pause</string>
+    <string name="action_resume">Reprendre</string>
+    <string name="action_skip">Passer</string>
+    <string name="action_stop">Arrêter</string>
+    <string name="action_acknowledge">Valider</string>
+    <string name="action_silence">Couper</string>
+
+    <string name="step_default_label">Étape %1$d</string>
+    <string name="step_final_label">Fin du programme</string>
+
+    <string name="offline_notice">Fonctionne entièrement hors ligne. Aucune donnée ne quitte l\'appareil.</string>
+
+    <string name="template_example_name">Exemple 30 min</string>
+    <string name="template_pomodoro_name">Pomodoro</string>
+    <string name="template_interval_name">Entraînement fractionné</string>
+</resources>

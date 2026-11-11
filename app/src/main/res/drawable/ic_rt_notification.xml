@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Cloche monochrome (coche évidée), recadrée sur le glyphe de l'icône. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="66"
+    android:viewportHeight="66">
+    <group
+        android:translateX="-21"
+        android:translateY="-20">
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:fillType="evenOdd"
+            android:pathData="M54,34C45.5,34 43,41 43,49L43,58L39,65L69,65L65,58L65,49C65,41 62.5,34 54,34Z M45.91,53.59L52.09,59.77L62.18,48.5L58.82,45.5L51.91,53.23L49.09,50.41Z" />
+        <path
+            android:pathData="M54,34C45.5,34 43,41 43,49L43,58L39,65L69,65L65,58L65,49C65,41 62.5,34 54,34Z"
+            android:strokeWidth="4"
+            android:strokeColor="#FFFFFFFF"
+            android:strokeLineJoin="round" />
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M51,31a3,3 0 1,0 6,0a3,3 0 1,0 -6,0Z" />
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M49.5,73a4.5,4.5 0 1,0 9,0a4.5,4.5 0 1,0 -9,0Z" />
+        <path
+            android:pathData="M78,44A9,9 0 0 1 78,56"
+            android:strokeWidth="4"
+            android:strokeColor="#FFFFFFFF"
+            android:strokeLineCap="round" />
+        <path
+            android:pathData="M30,44A9,9 0 0 0 30,56"
+            android:strokeWidth="4"
+            android:strokeColor="#FFFFFFFF"
+            android:strokeLineCap="round" />
+    </group>
+</vector>

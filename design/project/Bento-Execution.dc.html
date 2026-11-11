@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Bento — Exécution</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;800&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+</style>
+</helmet>
+<div style="width: 390px; height: 844px; box-sizing: border-box; overflow: hidden; font-family: 'Plus Jakarta Sans', sans-serif; background: #EEF1F6; color: #14161F; display: flex; flex-direction: column; padding: 44px 16px 16px 16px; gap: 12px;">
+
+  <div style="display: flex; align-items: center; gap: 12px; height: 48px;">
+    <button type="button" aria-label="Retour" style="width: 48px; height: 48px; border-radius: 24px; border: none; background: #FFFFFF; display: flex; align-items: center; justify-content: center; padding: 0; cursor: pointer; flex: none;">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#14161F" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"></path></svg>
+    </button>
+    <h1 style="margin: 0; font-size: 22px; font-weight: 800; line-height: 28px; color: #14161F;">Cuisson du rôti</h1>
+  </div>
+
+  <div style="background: #E6E0FF; border-radius: 28px; padding: 20px; box-sizing: border-box; height: 232px; display: flex; flex-direction: column; justify-content: space-between;">
+    <div style="display: flex; flex-direction: column; gap: 2px;">
+      <span style="font-size: 12px; font-weight: 800; letter-spacing: 1px; line-height: 16px; color: #14161F;">ÉTAPE 3/5</span>
+      <span style="font-size: 22px; font-weight: 800; line-height: 28px; color: #14161F;">Arroser le rôti</span>
+    </div>
+    <div style="display: flex; align-items: baseline; gap: 10px;">
+      <span style="font-size: 96px; font-weight: 800; line-height: 100px; letter-spacing: -3px; font-variant-numeric: tabular-nums; color: #14161F;">4:12</span>
+      <span style="font-size: 14px; font-weight: 600; color: #14161F;">sur 6:00</span>
+    </div>
+    <div role="img" aria-label="Progression de l'étape : 30 %" style="height: 14px; border-radius: 7px; background: #FFFFFF; display: flex; overflow: hidden;">
+      <div style="width: 30%; height: 14px; border-radius: 7px; background: #5B45E0;"></div>
+    </div>
+  </div>
+
+  <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px;">
+    <div style="background: #FFFFFF; border-radius: 28px; padding: 14px 20px; box-sizing: border-box; display: flex; flex-direction: column;">
+      <span style="font-size: 13px; font-weight: 600; line-height: 18px; color: #4B5263;">Écoulé</span>
+      <span style="font-size: 28px; font-weight: 800; line-height: 34px; letter-spacing: -1px; font-variant-numeric: tabular-nums; color: #14161F;">13:48</span>
+    </div>
+    <div style="background: #FFFFFF; border-radius: 28px; padding: 14px 20px; box-sizing: border-box; display: flex; flex-direction: column;">
+      <span style="font-size: 13px; font-weight: 600; line-height: 18px; color: #4B5263;">Restant</span>
+      <span style="font-size: 28px; font-weight: 800; line-height: 34px; letter-spacing: -1px; font-variant-numeric: tabular-nums; color: #14161F;">16:12</span>
+    </div>
+  </div>
+
+  <div style="background: #FFFFFF; border-radius: 28px; padding: 16px 16px 12px 16px; box-sizing: border-box; flex: 1 1 0; min-height: 0; display: flex; flex-direction: column; gap: 8px;">
+    <span style="font-size: 16px; font-weight: 800; line-height: 20px; color: #14161F; padding-left: 4px;">Étapes</span>
+
+    <div role="img" aria-label="Frise : étapes 1 et 2 faites, étape 3 en cours à 30 %, étapes 4 et 5 à venir ; validation aux étapes 2 et 4" style="display: flex; flex-direction: column; gap: 3px;">
+      <div style="display: flex; gap: 3px; height: 16px;">
+        <div style="flex: 5 1 0; min-width: 0;"></div>
+        <div style="flex: 7 1 0; min-width: 0; display: flex; justify-content: flex-end;">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#14161F" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9V4.2a1 1 0 012 0V7.5M7 7V3a1 1 0 012 0v4.5M9 7V4a1 1 0 012 0v5.5c0 2.6-1.6 4.5-4 4.5S3.5 12.3 3.5 10V8.8a1 1 0 012 0"></path></svg>
+        </div>
+        <div style="flex: 6 1 0; min-width: 0;"></div>
+        <div style="flex: 5 1 0; min-width: 0; display: flex; justify-content: flex-end;">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#14161F" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9V4.2a1 1 0 012 0V7.5M7 7V3a1 1 0 012 0v4.5M9 7V4a1 1 0 012 0v5.5c0 2.6-1.6 4.5-4 4.5S3.5 12.3 3.5 10V8.8a1 1 0 012 0"></path></svg>
+        </div>
+        <div style="flex: 7 1 0; min-width: 0;"></div>
+      </div>
+      <div style="display: flex; gap: 3px; height: 22px;">
+        <div style="flex: 5 1 0; min-width: 0; border-radius: 11px; background: #5B45E0; display: flex; align-items: center; justify-content: center;">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>
+        </div>
+        <div style="flex: 7 1 0; min-width: 0; border-radius: 11px; background: #5B45E0; display: flex; align-items: center; justify-content: center;">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>
+        </div>
+        <div style="flex: 6 1 0; min-width: 0; border-radius: 11px; background: #D5DAE3; display: flex; overflow: hidden;"><div style="width: 30%; border-radius: 11px; background: #5B45E0;"></div></div>
+        <div style="flex: 5 1 0; min-width: 0; border-radius: 11px; background: #D5DAE3;"></div>
+        <div style="flex: 7 1 0; min-width: 0; border-radius: 11px; background: #D5DAE3;"></div>
+      </div>
+    </div>
+
+    <div style="display: flex; flex-direction: column; gap: 2px; margin-top: 2px;">
+      <div style="height: 32px; padding: 0 10px; border-radius: 12px; display: flex; align-items: center; gap: 8px;">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5B45E0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Faite"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>
+        <span style="flex: 1 1 0; font-size: 14px; font-weight: 500; color: #4B5263;">Saisir</span>
+        <span style="font-size: 14px; font-weight: 500; font-variant-numeric: tabular-nums; color: #4B5263;">5:00</span>
+      </div>
+      <div style="height: 32px; padding: 0 10px; border-radius: 12px; display: flex; align-items: center; gap: 8px;">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5B45E0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Faite"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>
+        <span style="flex: 1 1 0; font-size: 14px; font-weight: 500; color: #4B5263;">Retourner la viande</span>
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="#4B5263" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Validation requise"><path d="M5 9V4.2a1 1 0 012 0V7.5M7 7V3a1 1 0 012 0v4.5M9 7V4a1 1 0 012 0v5.5c0 2.6-1.6 4.5-4 4.5S3.5 12.3 3.5 10V8.8a1 1 0 012 0"></path></svg>
+        <span style="font-size: 14px; font-weight: 500; font-variant-numeric: tabular-nums; color: #4B5263;">12:00</span>
+      </div>
+      <div style="height: 32px; padding: 0 10px; border-radius: 12px; background: #E6E0FF; display: flex; align-items: center; gap: 8px;">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="#5B45E0" role="img" aria-label="En cours"><circle cx="12" cy="12" r="6"></circle></svg>
+        <span style="flex: 1 1 0; font-size: 14px; font-weight: 800; color: #14161F;">Arroser le rôti</span>
+        <span style="font-size: 14px; font-weight: 800; font-variant-numeric: tabular-nums; color: #14161F;">18:00</span>
+      </div>
+      <div style="height: 32px; padding: 0 10px; border-radius: 12px; display: flex; align-items: center; gap: 8px;">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#4B5263" stroke-width="2.4" role="img" aria-label="À venir"><circle cx="12" cy="12" r="6"></circle></svg>
+        <span style="flex: 1 1 0; font-size: 14px; font-weight: 600; color: #14161F;">Baisser le four</span>
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="#4B5263" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Validation requise"><path d="M5 9V4.2a1 1 0 012 0V7.5M7 7V3a1 1 0 012 0v4.5M9 7V4a1 1 0 012 0v5.5c0 2.6-1.6 4.5-4 4.5S3.5 12.3 3.5 10V8.8a1 1 0 012 0"></path></svg>
+        <span style="font-size: 13px; font-weight: 500; font-variant-numeric: tabular-nums; color: #4B5263;">23:00 · vers 01:34</span>
+      </div>
+      <div style="height: 32px; padding: 0 10px; border-radius: 12px; display: flex; align-items: center; gap: 8px;">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#4B5263" stroke-width="2.4" role="img" aria-label="À venir"><circle cx="12" cy="12" r="6"></circle></svg>
+        <span style="flex: 1 1 0; font-size: 14px; font-weight: 600; color: #14161F;">Sortir le rôti</span>
+        <span style="font-size: 13px; font-weight: 500; font-variant-numeric: tabular-nums; color: #4B5263;">30:00 · vers 01:41</span>
+      </div>
+    </div>
+  </div>
+
+  <div style="background: #FFFFFF; border-radius: 28px; padding: 12px; box-sizing: border-box; height: 88px; display: flex; align-items: center; gap: 12px;">
+    <button type="button" aria-label="Arrêter" style="width: 56px; height: 56px; border-radius: 28px; border: none; background: #E3E7EF; display: flex; align-items: center; justify-content: center; padding: 0; cursor: pointer; flex: none;">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="#14161F" aria-hidden="true"><rect x="5.5" y="5.5" width="13" height="13" rx="2.5"></rect></svg>
+    </button>
+    <button type="button" aria-label="Pause" style="flex: 1 1 0; min-width: 0; height: 64px; border-radius: 32px; border: none; background: #5B45E0; color: #FFFFFF; display: flex; align-items: center; justify-content: center; gap: 10px; padding: 0; cursor: pointer; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 22px; font-weight: 800;">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="#FFFFFF" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1.2"></rect><rect x="14" y="5" width="4" height="14" rx="1.2"></rect></svg>
+      <span>Pause</span>
+    </button>
+    <button type="button" aria-label="Passer l'étape" style="width: 56px; height: 56px; border-radius: 28px; border: none; background: #E3E7EF; display: flex; align-items: center; justify-content: center; padding: 0; cursor: pointer; flex: none;">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="#14161F" stroke="#14161F" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 6l9 6-9 6z"></path><path d="M18.5 6v12" fill="none"></path></svg>
+    </button>
+  </div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>

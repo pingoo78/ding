@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Communs -->
+    <string name="infinity">∞</string>
+    <string name="action_move_up">Monter</string>
+    <string name="action_move_down">Descendre</string>
+    <string name="state_expanded">Déplié</string>
+    <string name="state_collapsed">Replié</string>
+    <string name="tri_inherit">Hériter</string>
+    <string name="tri_yes">Oui</string>
+    <string name="tri_no">Non</string>
+    <string name="keypad_backspace">Effacer</string>
+    <string name="keypad_clear">Tout effacer</string>
+
+    <string-array name="program_color_names">
+        <item>Turquoise</item>
+        <item>Indigo</item>
+        <item>Violet</item>
+        <item>Rose</item>
+        <item>Orange</item>
+        <item>Ambre</item>
+        <item>Vert</item>
+        <item>Bleu ciel</item>
+    </string-array>
+
+    <plurals name="timeline_desc">
+        <item quantity="one">Frise de %1$d étape, dont %2$d à validation</item>
+        <item quantity="other">Frise de %1$d étapes, dont %2$d à validation</item>
+    </plurals>
+
+    <!-- Démarrage -->
+    <string name="start_replace_title">Remplacer le programme en cours ?</string>
+    <string name="start_replace_message">« %1$s » est en cours. Démarrer « %2$s » l\'arrêtera.</string>
+    <string name="start_replace_confirm">Remplacer</string>
+    <string name="start_notif_title">Autoriser les notifications ?</string>
+    <string name="start_notif_message">Ding! utilise une notification pour afficher le décompte et vous prévenir quand une étape est atteinte, même écran éteint.</string>
+    <string name="start_notif_allow">Continuer</string>
+    <string name="start_notif_skip">Démarrer sans</string>
+    <string name="start_notif_denied">Notifications refusées : le programme démarre, mais les alertes pourraient ne pas s\'afficher écran éteint.</string>
+
+    <!-- Accueil -->
+    <string name="home_settings">Réglages</string>
+    <string name="home_new_program">Nouveau programme</string>
+    <string name="home_start_named">Démarrer %1$s</string>
+    <string name="home_more_named">Plus d\'actions pour %1$s</string>
+    <string name="home_menu_duplicate">Dupliquer</string>
+    <string name="home_menu_export">Exporter ce programme</string>
+    <string name="home_deleted">Programme supprimé</string>
+    <string name="home_duplicated">Programme dupliqué</string>
+    <string name="home_export_ok">Programme exporté</string>
+    <string name="home_export_fail">Échec de l\'export</string>
+    <string name="home_template_added">Modèle ajouté</string>
+    <string name="home_template_use">Ajouter ce modèle</string>
+    <string name="home_repeat">× %1$d</string>
+    <string name="home_repeat_infinite">en boucle</string>
+    <plurals name="home_steps_count">
+        <item quantity="one">%1$d étape</item>
+        <item quantity="other">%1$d étapes</item>
+    </plurals>
+    <string name="home_empty_title">Aucun programme</string>
+    <string name="home_empty_body">Un programme enchaîne des étapes qui sonnent à des instants donnés. Partez d\'un modèle ou créez le vôtre.</string>
+    <string name="home_templates_title">Modèles</string>
+    <string name="template_example_desc">Sonne à 5, 12, 18 et 23 min, fin à 30 min</string>
+    <string name="template_pomodoro_desc">25 min / 5 min, 4 cycles, avec validation</string>
+    <string name="template_interval_desc">30 s d\'effort / 15 s de récupération, 8 cycles</string>
+    <string name="banner_running">En cours</string>
+    <string name="banner_paused">En pause</string>
+    <string name="banner_reached">Étape atteinte</string>
+    <string name="banner_finished">Terminé</string>
+    <string name="banner_step">Étape %1$d/%2$d · %3$s</string>
+
+    <!-- Éditeur -->
+    <string name="editor_title_new">Nouveau programme</string>
+    <string name="editor_title_edit">Modifier</string>
+    <string name="editor_start">Démarrer</string>
+    <string name="editor_not_found">Programme introuvable.</string>
+    <string name="editor_name">Nom du programme</string>
+    <string name="editor_default_name">Programme sans nom</string>
+    <string name="editor_color">Couleur</string>
+    <string name="editor_preview">Aperçu · durée totale</string>
+    <string name="editor_fix_errors">Corrigez les étapes signalées avant d\'enregistrer.</string>
+    <string name="editor_add_step">Ajouter une étape</string>
+    <string name="editor_drag_handle">Déplacer l\'étape %1$d</string>
+    <string name="editor_discard_title">Abandonner les modifications ?</string>
+    <string name="editor_discard_message">Les changements non enregistrés seront perdus.</string>
+    <string name="editor_discard_confirm">Abandonner</string>
+    <string name="editor_discard_keep">Continuer l\'édition</string>
+    <string name="mode_cumulative">Heure de sonnerie</string>
+    <string name="mode_duration">Durée d\'étape</string>
+    <string name="mode_cumulative_caption">Sonne à (depuis le départ)</string>
+    <string name="mode_duration_caption">Durée depuis l\'étape précédente</string>
+    <string name="step_at">à %1$s</string>
+    <string name="step_plus">+%1$s</string>
+    <string name="step_icon_ack">Validation requise</string>
+    <string name="step_icon_silent">Silencieux</string>
+    <string name="error_after_previous">Doit sonner après l\'étape précédente.</string>
+    <string name="error_duration_positive">La durée doit être supérieure à 0.</string>
+
+    <string name="sheet_label">Libellé</string>
+    <string name="sheet_secondary_duration">Durée de l\'étape : +%1$s</string>
+    <string name="sheet_secondary_at">Sonne à %1$s</string>
+    <string name="shortcut_30s">+30 s</string>
+    <string name="shortcut_1min">+1 min</string>
+    <string name="shortcut_5min">+5 min</string>
+    <string name="sheet_wait_ack">Attendre ma validation</string>
+    <string name="sheet_inherit_yes">Hérité du programme : oui</string>
+    <string name="sheet_inherit_no">Hérité du programme : non</string>
+    <string name="sheet_sound">Son</string>
+    <string name="sheet_vibration">Vibration</string>
+    <string name="sheet_delete">Supprimer l\'étape</string>
+    <string name="sheet_done">Terminé</string>
+    <string name="sheet_delete_title">Supprimer cette étape ?</string>
+    <string name="sheet_delete_message">Cette action est définitive.</string>
+    <string name="sound_system">Alarme système</string>
+    <string name="sound_choose">Choisir…</string>
+    <string name="sound_silent">Silencieux</string>
+    <string name="sound_custom_fallback">Sonnerie choisie</string>
+    <string name="sound_picker_title">Choisir un son</string>
+
+    <string name="options_title">Options du programme</string>
+    <string name="options_wait_ack">Attendre ma validation par défaut</string>
+    <string name="options_wait_ack_desc">Le chrono s\'arrête à chaque étape jusqu\'à validation.</string>
+    <string name="options_sound">Son par défaut</string>
+    <string name="options_vibrate">Vibration par défaut</string>
+    <string name="options_announce">Annonce vocale</string>
+    <string name="options_announce_desc">Lit le libellé de l\'étape à voix haute (synthèse vocale hors ligne).</string>
+    <string name="options_ring">Durée de sonnerie</string>
+    <string name="options_ring_desc">Pour les étapes qui n\'attendent pas de validation.</string>
+    <string name="options_seconds">%1$d s</string>
+    <string name="options_repeat">Répétitions</string>
+    <string name="options_repeat_value">× %1$d</string>
+    <string name="options_repeat_infinite_value">∞</string>
+    <string name="options_repeat_infinite">Infini</string>
+    <string name="options_repeat_less">Moins de répétitions</string>
+    <string name="options_repeat_more">Plus de répétitions</string>
+
+    <!-- Exécution -->
+    <string name="run_back_home">Retour à l\'accueil (le programme continue)</string>
+    <string name="run_step_of">Étape %1$d/%2$d</string>
+    <string name="run_stat_elapsed">Écoulé</string>
+    <string name="run_stat_remaining">Restant</string>
+    <string name="run_stat_cycle">Cycle</string>
+    <string name="run_cycle_value">%1$d/%2$s</string>
+    <string name="run_stop_title">Arrêter le programme ?</string>
+    <string name="run_stop_message">« %1$s » sera arrêté.</string>
+    <string name="timeline_state_done">faite</string>
+    <string name="timeline_state_current">en cours</string>
+    <string name="timeline_state_upcoming">à venir</string>
+    <string name="timeline_eta">vers %1$s</string>
+    <string name="attention_title">Étape atteinte</string>
+    <string name="attention_announce">Étape atteinte : %1$s</string>
+    <string name="finished_title">Programme terminé</string>
+    <string name="finished_duration">Durée effective</string>
+    <string name="finished_steps">Étapes</string>
+    <string name="finished_restart">Recommencer</string>
+    <string name="finished_done">Terminer</string>
+
+    <!-- Réglages -->
+    <string name="settings_title">Réglages</string>
+    <string name="settings_appearance">Apparence</string>
+    <string name="theme_system">Système</string>
+    <string name="theme_light">Clair</string>
+    <string name="theme_dark">Sombre</string>
+    <string name="settings_dynamic">Couleurs dynamiques (Material You)</string>
+    <string name="settings_dynamic_desc">Reprend les couleurs de votre fond d\'écran.</string>
+    <string name="settings_dynamic_unsupported">Nécessite Android 12 ou plus.</string>
+    <string name="settings_behavior">Comportement</string>
+    <string name="settings_keep_on">Garder l\'écran allumé</string>
+    <string name="settings_keep_on_desc">Pendant l\'exécution d\'un programme.</string>
+    <string name="settings_input_mode">Mode de saisie par défaut</string>
+    <string name="settings_haptics">Retour haptique</string>
+    <string name="settings_haptics_desc">Légère vibration lors des actions principales.</string>
+    <string name="settings_permissions_desc">Ces autorisations garantissent que les alertes sonnent à l\'heure, même écran verrouillé.</string>
+    <string name="perm_state_on">Activée</string>
+    <string name="perm_state_off">À activer</string>
+    <string name="perm_optional">(Facultative)</string>
+    <string name="perm_notifications">Notifications</string>
+    <string name="perm_notifications_desc">Affiche le programme en cours et les étapes atteintes.</string>
+    <string name="perm_alarms">Alarmes et rappels</string>
+    <string name="perm_alarms_desc">Permet de sonner à la seconde près, y compris en veille.</string>
+    <string name="perm_fullscreen">Alerte plein écran</string>
+    <string name="perm_fullscreen_desc">Affiche l\'alerte par-dessus l\'écran de verrouillage.</string>
+    <string name="perm_battery">Optimisation de la batterie</string>
+    <string name="perm_battery_desc">Désactiver l\'optimisation évite que le système interrompe le minuteur.</string>
+    <string name="settings_data">Données</string>
+    <string name="settings_export_all">Exporter</string>
+    <string name="settings_import">Importer</string>
+    <string name="settings_export_ok">Programmes exportés</string>
+    <string name="settings_import_none">Aucun nouveau programme à importer</string>
+    <plurals name="settings_imported">
+        <item quantity="one">%1$d programme importé</item>
+        <item quantity="other">%1$d programmes importés</item>
+    </plurals>
+    <string name="settings_import_invalid">Ce fichier n\'est pas un export Ding! valide.</string>
+    <string name="settings_transfer_error">Opération impossible. Vérifiez le fichier et réessayez.</string>
+    <string name="settings_about">À propos</string>
+    <string name="settings_version">%1$s, version %2$s</string>
+    <string name="settings_license">Police Plus Jakarta Sans, licence SIL Open Font License 1.1.</string>
+    <string name="settings_source_code">Code source : github.com/pingoo78/ding</string>
+    <string name="settings_app_license">Licence GPL-3.0</string>
+    <string name="attention_elapsed">Écoulé</string>
+    <string name="attention_next">Ensuite</string>
+    <string name="attention_next_detail">dans %1$s</string>
+    <string name="attention_program_end">Fin du programme</string>
+    <string name="attention_waiting_since">En attente depuis %1$s</string>
+    <string name="attention_silence_sound">Couper le son</string>
+</resources>

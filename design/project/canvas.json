@@ -1,0 +1,40 @@
+{
+  "v": 3,
+  "createdOnFiles": {"v": 1, "at": "2026-11-11T01:20:00Z"},
+  "title": "Minuteur — nom, icônes, interfaces",
+  "launch": {"view": "canvas"},
+  "pages": [],
+  "boards": {
+    "Main.dc.html": {"x": 0, "y": 0, "w": 1280, "h": 820, "title": "3 icônes"},
+    "Noms.dc.html": {"x": 1360, "y": 0, "w": 960, "h": 820, "title": "Propositions de noms"},
+    "Nuit-Accueil.dc.html": {"x": 0, "y": 1220, "w": 390, "h": 844, "title": "A · Nuit — Accueil"},
+    "Nuit-Execution.dc.html": {"x": 470, "y": 1220, "w": 390, "h": 844, "title": "A · Nuit — Exécution"},
+    "Nuit-Etape.dc.html": {"x": 940, "y": 1220, "w": 390, "h": 844, "title": "A · Nuit — Étape atteinte"},
+    "Bento-Accueil.dc.html": {"x": 0, "y": 2484, "w": 390, "h": 844, "title": "B · Bento — Accueil"},
+    "Bento-Execution.dc.html": {"x": 470, "y": 2484, "w": 390, "h": 844, "title": "B · Bento — Exécution"},
+    "Bento-Etape.dc.html": {"x": 940, "y": 2484, "w": 390, "h": 844, "title": "B · Bento — Étape atteinte"},
+    "Expressif-Accueil.dc.html": {"x": 0, "y": 3748, "w": 390, "h": 844, "title": "C · Expressif — Accueil"},
+    "Expressif-Execution.dc.html": {"x": 470, "y": 3748, "w": 390, "h": 844, "title": "C · Expressif — Exécution"},
+    "Expressif-Etape.dc.html": {"x": 940, "y": 3748, "w": 390, "h": 844, "title": "C · Expressif — Étape atteinte"}
+  },
+  "order": [
+    "Main.dc.html",
+    "Noms.dc.html",
+    "Nuit-Accueil.dc.html",
+    "Nuit-Execution.dc.html",
+    "Nuit-Etape.dc.html",
+    "Bento-Accueil.dc.html",
+    "Bento-Execution.dc.html",
+    "Bento-Etape.dc.html",
+    "Expressif-Accueil.dc.html",
+    "Expressif-Execution.dc.html",
+    "Expressif-Etape.dc.html"
+  ],
+  "notes": {
+    "t-brand": {"x": 0, "y": -300, "text": "Nom & icône", "kind": "title1", "maxW": 2320},
+    "t-nuit": {"x": 0, "y": 920, "text": "A · Nuit — sombre & sportif", "kind": "title1", "maxW": 1330},
+    "t-bento": {"x": 0, "y": 2184, "text": "B · Bento — clair & coloré", "kind": "title1", "maxW": 1330},
+    "t-expressif": {"x": 0, "y": 3448, "text": "C · Expressif — formes vivantes", "kind": "title1", "maxW": 1330}
+  },
+  "designSystems": []
+}

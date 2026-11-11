@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rt_step_progress">Étape %1$d/%2$d</string>
+    <string name="rt_text_step">%1$s · Étape %2$d/%3$d</string>
+    <string name="rt_text_paused">En pause — %1$s restantes</string>
+    <string name="rt_text_waiting_ack">En attente de validation</string>
+    <string name="rt_loading">Chargement du programme…</string>
+
+    <string name="rt_finished_title">Programme terminé</string>
+    <string name="rt_finished_text">%1$s est terminé.</string>
+
+    <string name="rt_alert_final">Dernière étape</string>
+    <string name="rt_alert_waiting">Validation requise</string>
+
+    <string name="rt_alert_program_step">Étape %1$d/%2$d · %3$s</string>
+    <string name="rt_alert_acknowledge_description">Valider l\'étape et reprendre le décompte</string>
+    <string name="rt_alert_silence_description">Couper la sonnerie</string>
+    <string name="rt_alert_stop_program">Arrêter le programme</string>
+    <string name="rt_alert_stop_confirm_title">Arrêter le programme ?</string>
+    <string name="rt_alert_stop_confirm_text">Le décompte en cours sera abandonné.</string>
+    <string name="rt_alert_stop_confirm_yes">Arrêter</string>
+    <string name="rt_alert_stop_confirm_no">Continuer</string>
+</resources>
